@@ -1,0 +1,36 @@
+## Site Meta ##
+# The title of the website.
+title: "Dorion Ceramics"
+# The description of the website
+description: "John Dorion's Pottery Portfolio"
+# Keywords/tags for you site.
+keywords: "ceramics,pottery,stoneware,porcelain.production potter, potter, ceramicist,tennessee potter, artist, clay, art lessons, throwing, wheel throwing, wheel throwing lessons, wheel thrown ceramics"
+# Your copyright message.
+copyright: "Copyright &copy; 2020 John Dorion"
+
+## Site Configurations ##
+# 1st heading of the site.
+header: "Dorion Ceramics"
+# 2nd heading/sub heading of the website.
+subheader: "Pottery by John Dorion"
+# A description/bio of the website.
+bio: "John Dorion is a Belgian American potter who draws inspiration from his travels, elements of nature such as mosses and mushrooms, and clean geometry. John is currently researching the incorporation of electric elements into ceramic forms."
+social:
+  instagram_username: "dorion_ceramics"
+  etsy: "Jfucc"
+  # Your email address.
+  email: "john@johndorion.com"
+
+## Gallery Configuration ##
+# If you modify this, also modify the `default.scope.path` key below.
+gallery_dir: "gallery"
+# Any valid value of "background-position" CSS attribute.
+image_position: "left center"
+
+## Jekyll Configuration ##
+defaults:
+ - scope:
+    # Should be same as the `gallery_dir` key above.
+    path: "gallery"
+   values:
+    image: true
